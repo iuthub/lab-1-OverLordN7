@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "81a72bb2-a367-417d-b6fd-5da2ef204c4b",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": " https://httpbin.org/post\n",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://httpbin.org/post",
+					"protocol": "https",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"post"
+					]
+				},
+				"description": "data"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
